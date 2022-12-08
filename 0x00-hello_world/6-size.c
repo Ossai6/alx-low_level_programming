@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** main - A program that prints size of int, char, long int, long long int, float data types
+/** main - A program that prints size of data types
  * Return: Always return 0
  */
 int main(void)
