@@ -13,7 +13,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	printf("Enter a number\n");
 	scanf("%d", &n);
 	if (n > 0)
 	{
