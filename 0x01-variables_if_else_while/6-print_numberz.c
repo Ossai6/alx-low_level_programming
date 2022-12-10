@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-        int i;
+	char i;
 
-        for (i >= '68' && <= '73');)
-        {
-                putchar(i);
-        }
-  
-        return (0);
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
+
+	return (0);
 }
