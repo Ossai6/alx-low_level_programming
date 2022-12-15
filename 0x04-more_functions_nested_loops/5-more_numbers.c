@@ -7,9 +7,10 @@
  * Return: 0
  */
 
-void more_numbers(void)
+void more_numbers(int i, int j)
 {
-	int i, j;
+	int i;
+	int j;
 
 	for (i = 0; i <= 9; i++)
 	{
