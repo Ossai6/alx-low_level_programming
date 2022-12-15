@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
- * more_numbers - Prints 0 to 14 ten times
- * @i: Integer variable
- * @j: Integer variable
- * Return: 0
+ * more_numbers - nmbr fct
+ * Return: no return
  */
 
 void more_numbers(void)
 {
-	int i, j;
 
+int i, j;
 	for (i = 1; i <= 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
@@ -20,5 +18,5 @@ void more_numbers(void)
 			_putchar(j % 10 + '0');
 		}
 			_putchar('\n');
-	}
+		}
 }
