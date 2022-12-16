@@ -7,12 +7,16 @@
 
 void print_number(int n)
 {
-	if (n > 0)
-		_putchar(n);
-	if (n = 0)
-		_putchar(n);
-	else
-		_putchar(n);
+	unsigned int i = n;
 
-	return 0;	
+	if (n < 0)
+	{
+		_putchar(n);
+		i = -i;
+	}
+	if (i / 10)
+	{
+		print_number(i / 10);
+	}
+	_putchar(i % 10 + '0');
 }
