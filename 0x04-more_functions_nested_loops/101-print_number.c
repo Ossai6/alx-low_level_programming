@@ -7,7 +7,7 @@
 
 void print_number(int n)
 {
-	unsigned int n;
+	int n;
 
 	scanf("%d", &n);
 
