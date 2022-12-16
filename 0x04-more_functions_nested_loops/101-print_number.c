@@ -7,10 +7,6 @@
 
 void print_number(int n)
 {
-	int n;
-
-	scanf("%d", &n);
-
 	if (n > 0)
 		_putchar(n);
 	if (n = 0)
