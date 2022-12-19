@@ -3,16 +3,13 @@
 /**
  * swap_int - Swapping to inputs
  * @a: Integer 1
- * @b: Integer 2
- * @x: Variable
+ * @b: Integer
  * Return: void
  */
 
 void swap_int(int *a, int *b)
 {
-	int x;
-
-	x = *a;
+	int x = *a;
 	*a = *b;
 	*b = x;
 }
