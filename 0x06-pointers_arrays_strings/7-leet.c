@@ -8,6 +8,7 @@
 
 char *leet(char *str)
 {
+	int i, j;
 	char x[] = "aAeEoOtTlL"
 	char y[] = "4433007711"
 
@@ -21,5 +22,5 @@ char *leet(char *str)
 			}
 		}
 	}
-	return (s);
+	return (str);
 }
