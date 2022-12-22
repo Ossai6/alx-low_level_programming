@@ -16,7 +16,7 @@ char *leet(char *str)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			if (str[i] == x[j]);
+			if (str[i] == x[j])
 			{
 				str[i] = y[j];
 			}
