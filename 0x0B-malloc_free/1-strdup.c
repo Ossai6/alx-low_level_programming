@@ -14,14 +14,16 @@ char *_strdup(char *str)
 	char *ptstr;
 	int str_len = 0, count;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	/* find the length of the string */
 	while (str[str_len] != '\0')
 	{
 		str_len++;
 	}
-	if (str == NULL)
-		return (NULL);
-
+	/* allocation of memory */
 	ptstr = (char *)malloc((str_len * sizeof(char)) + 1);
 
 	if (ptstr == NULL)
