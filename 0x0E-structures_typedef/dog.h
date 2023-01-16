@@ -6,7 +6,6 @@
  * @name: name
  * @age: age
  * @owner: owner
- *
  * Description: A structure that stores rhe name, age, and owner
  * of a dog
  */
