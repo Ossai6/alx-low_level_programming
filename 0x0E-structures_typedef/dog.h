@@ -6,9 +6,9 @@
  * @name: name
  * @age: age
  * @owner: owner
- * Description: A structure that stores rhe name, age, and owner
- * of a dog
+ * Description: A structure that stores the details of a dog
  */
+
 struct dog
 {
 	char *name;
