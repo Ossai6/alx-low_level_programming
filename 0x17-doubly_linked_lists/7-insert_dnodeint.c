@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * insert_dnodeint_at_idex - a function that adds a node at a 
+ * insert_dnodeint_at_index - a function that adds a node at a
  * given index
  * @idx: The index or position
  * @h: head pointer
