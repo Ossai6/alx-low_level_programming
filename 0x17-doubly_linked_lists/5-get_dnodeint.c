@@ -4,7 +4,7 @@
 
 /**
  * get_dnodeint_at_index - a function that gets a node
- * 
+ *
  * @index: The index to be retrieved
  * @head: head pointer
  * Return: return the new list and element at index
@@ -15,7 +15,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *temp;
 	unsigned int i;
-	
+
 	if (head == NULL)
 		return (NULL);
 	if (index == 0)
@@ -31,6 +31,6 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	{
 		temp = temp->next;
 	}
-	
+
 	return (temp);
 }
